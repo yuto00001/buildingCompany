@@ -381,3 +381,56 @@ p {
   font-size: 1.5vw;
 }
 }
+@media (min-width: 2000px) {
+  img {
+    width: 80vw;
+    height: 1000px;
+}
+.first, .second, .third {
+  width: 1700px;
+  height: 1200px;
+  font-size: 100px;
+}
+.second {
+  margin-right: 40%;
+  width: 55%;
+  top: -200px;
+}
+.recommendedPoints > div > h3 {
+  font-size: 40px;
+}
+.first > p, .second > p, .third > p {
+  font-size: 20px;
+}
+.first > h2, .second > h2, .third > h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.first > h3, .first > p {
+  justify-content: right;
+  margin: 0 70px;
+}
+.second > h3, .second > p {
+  margin: 0 80px;
+}
+.third > h3, .third > p {
+  justify-content: right;
+  margin: 0 70px;
+}
+}
+@media (min-width: 3000px) {
+  img {
+    width: 80vw;
+    height: 1500px;
+}
+.recommendedPoints >div > h3 {
+  font-size: 60px;
+}
+.first > p, .second > p, .third > p {
+  font-size: 40px;
+}
+.first > h2, .second > h2, .third > h2 {
+  font-size: 70px;
+  margin-bottom: 40px;
+}
+}
