@@ -8,6 +8,9 @@
         interstitialSection : "#header,#footer",//ヘッダーフッターを認識し、1ページスクロールさせず表示されるように設定
         easing: "swing", // 他にもlinearやeaseOutExpoといったjQueryのeasing指定可能
         scrollSpeed: 750, // スクロール時の速度
+        mousewheel: {
+          thresholdDelta: 100,  // マウスホイールを有効にする
+        },
         
         //以下、ページネーション設定
         before:function(i,panels) {
